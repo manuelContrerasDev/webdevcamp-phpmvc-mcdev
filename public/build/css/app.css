@@ -426,12 +426,12 @@ h3 {
   margin-top: 3rem;
 }
 .paquetes__submit:hover {
-  background-color: #0063c1;
+  background-color: rgb(0, 98.8729508197, 193);
   cursor: pointer;
 }
 
 .paquete {
-  border: 1px solid #7f8ea3;
+  border: 1px solid rgb(127.050209205, 141.7782426778, 162.949790795);
   padding: 3rem;
 }
 .paquete__nombre {
@@ -497,14 +497,12 @@ h3 {
   }
 }
 .paquete--acceso::before {
-  -webkit-clip-path: circle(50% at 50% 25%);
-          clip-path: circle(50% at 50% 25%);
+  clip-path: circle(50% at 50% 25%);
   left: calc(50% - 2.5rem);
   top: 0;
 }
 .paquete--acceso::after {
-  -webkit-clip-path: circle(50% at 50% 75%);
-          clip-path: circle(50% at 50% 75%);
+  clip-path: circle(50% at 50% 75%);
   left: calc(50% - 2.5rem);
   top: calc(100% - 5rem);
 }
@@ -517,14 +515,12 @@ h3 {
     justify-content: center;
   }
   .paquete--acceso::before {
-    -webkit-clip-path: circle(50% at 25% 50%);
-            clip-path: circle(50% at 25% 50%);
+    clip-path: circle(50% at 25% 50%);
     left: 0;
     top: calc(50% - 2.5rem);
   }
   .paquete--acceso::after {
-    -webkit-clip-path: circle(50% at 75% 50%);
-            clip-path: circle(50% at 75% 50%);
+    clip-path: circle(50% at 75% 50%);
     left: calc(100% - 5rem);
     top: calc(50% - 2.5rem);
   }
@@ -558,7 +554,7 @@ h3 {
   background-color: #01a7a1;
 }
 .eventos--workshops .evento__informacion:hover {
-  background-color: #017470;
+  background-color: rgb(0.6964285714, 116.3035714286, 112.125);
 }
 .eventos .swiper-button-next,
 .eventos .swiper-button-prev {
@@ -576,7 +572,7 @@ h3 {
   transition: 300ms background-color ease;
 }
 .evento__informacion:hover {
-  background-color: #0063c1;
+  background-color: rgb(0, 98.8729508197, 193);
 }
 .evento__nombre {
   font-size: 2rem;
@@ -622,7 +618,7 @@ h3 {
   margin-top: 1rem;
 }
 .evento__agregar:hover {
-  background-color: #e6e6e6;
+  background-color: rgb(229.5, 229.5, 229.5);
   cursor: pointer;
 }
 .evento__agregar:disabled {
@@ -690,7 +686,7 @@ h3 {
 }
 
 .speaker {
-  border: 1px solid #7f8ea3;
+  border: 1px solid rgb(127.050209205, 141.7782426778, 162.949790795);
   padding: 3rem;
   background-position: center top;
   background-size: 350px;
@@ -823,18 +819,16 @@ h3 {
   top: calc(50% - 2.5rem);
 }
 .boleto::before {
-  -webkit-clip-path: circle(50% at 25% 50%);
-          clip-path: circle(50% at 25% 50%);
+  clip-path: circle(50% at 25% 50%);
   left: 0;
 }
 .boleto::after {
-  -webkit-clip-path: circle(50% at 75% 50%);
-          clip-path: circle(50% at 75% 50%);
+  clip-path: circle(50% at 75% 50%);
   right: 0;
 }
 .boleto--presencial {
-  background-color: hsl(178deg, 100%, 39%);
-  background-image: radial-gradient(at 40% 20%, hsl(209deg, 100%, 47%) 0px, transparent 50%), radial-gradient(at 80% 0%, hsl(178deg, 100%, 39%) 0px, transparent 50%), radial-gradient(at 69% 82%, hsl(209deg, 100%, 47%) 0px, transparent 50%), radial-gradient(at 26% 91%, hsl(178deg, 100%, 39%) 0px, transparent 50%), radial-gradient(at 0% 100%, hsl(209deg, 100%, 47%) 0px, transparent 50%), radial-gradient(at 27% 22%, hsl(178deg, 100%, 39%) 0px, transparent 50%), radial-gradient(at 0% 0%, hsl(209deg, 100%, 47%) 0px, transparent 50%);
+  background-color: hsl(178, 100%, 39%);
+  background-image: radial-gradient(at 40% 20%, hsl(209, 100%, 47%) 0px, transparent 50%), radial-gradient(at 80% 0%, hsl(178, 100%, 39%) 0px, transparent 50%), radial-gradient(at 69% 82%, hsl(209, 100%, 47%) 0px, transparent 50%), radial-gradient(at 26% 91%, hsl(178, 100%, 39%) 0px, transparent 50%), radial-gradient(at 0% 100%, hsl(209, 100%, 47%) 0px, transparent 50%), radial-gradient(at 27% 22%, hsl(178, 100%, 39%) 0px, transparent 50%), radial-gradient(at 0% 0%, hsl(209, 100%, 47%) 0px, transparent 50%);
 }
 .boleto--virtual {
   background-color: #01a7a1;
@@ -885,7 +879,7 @@ h3 {
   width: auto;
 }
 .boleto__enlace:hover {
-  background-color: #0063c1;
+  background-color: rgb(0, 98.8729508197, 193);
   cursor: pointer;
 }
 .boleto--acceso {
@@ -933,29 +927,25 @@ h3 {
   }
 }
 .boleto::before {
-  -webkit-clip-path: circle(50% at 50% 25%);
-          clip-path: circle(50% at 50% 25%);
+  clip-path: circle(50% at 50% 25%);
   left: calc(50% - 2.5rem);
   top: 0;
 }
 @media (min-width: 768px) {
   .boleto::before {
-    -webkit-clip-path: circle(50% at 25% 50%);
-            clip-path: circle(50% at 25% 50%);
+    clip-path: circle(50% at 25% 50%);
     left: 0;
     top: calc(50% - 2.5rem);
   }
 }
 .boleto::after {
-  -webkit-clip-path: circle(50% at 50% 75%);
-          clip-path: circle(50% at 50% 75%);
+  clip-path: circle(50% at 50% 75%);
   left: calc(50% - 2.5rem);
   top: calc(100% - 5rem);
 }
 @media (min-width: 768px) {
   .boleto::after {
-    -webkit-clip-path: circle(50% at 75% 50%);
-            clip-path: circle(50% at 75% 50%);
+    clip-path: circle(50% at 75% 50%);
     left: calc(100% - 5rem);
     top: calc(50% - 2.5rem);
   }
@@ -1011,7 +1001,7 @@ h3 {
 }
 .formulario__input, .formulario__input--sociales, .formulario__select--sociales, .formulario__select {
   padding: 1rem;
-  border: 1px solid #b1c7dd;
+  border: 1px solid rgb(176.6, 199, 221.4);
   border-radius: 0.5rem;
 }
 .formulario__input--file, .formulario__select--file {
@@ -1065,7 +1055,7 @@ h3 {
   align-self: flex-start;
 }
 .formulario__submit:hover {
-  background-color: #0063c1;
+  background-color: rgb(0, 98.8729508197, 193);
   cursor: pointer;
 }
 .formulario__submit--registrar, .formulario__submit--full {
@@ -1215,7 +1205,7 @@ h3 {
   margin: 2rem 0;
 }
 .header__boton:hover {
-  background-color: #017470;
+  background-color: rgb(0.6964285714, 116.3035714286, 112.125);
   cursor: pointer;
 }
 @media (min-width: 768px) {
@@ -1316,7 +1306,7 @@ h3 {
   }
 }
 .footer__copyright {
-  background-color: #0063c1;
+  background-color: rgb(0, 98.8729508197, 193);
   margin: 3rem 0 0 0;
   padding: 2rem 0;
   text-align: center;
@@ -1382,9 +1372,9 @@ h3 {
   color: rgb(169, 0, 0);
 }
 .alerta__exito {
-  background-color: #abfeab;
+  background-color: rgb(170.7692307692, 254.2307692308, 170.7692307692);
   border-left: 0.5rem solid #02db02;
-  color: #017601;
+  color: rgb(1.0769230769, 117.9230769231, 1.0769230769);
 }
 
 .dashboard {
@@ -1444,7 +1434,7 @@ h3 {
   overflow-y: auto;
 }
 .dashboard__sidebar {
-  background-color: #2f405d;
+  background-color: rgb(47.191011236, 64.4943820225, 92.808988764);
   width: 12rem;
 }
 .dashboard__menu {
@@ -1454,7 +1444,7 @@ h3 {
   gap: 1rem;
 }
 .dashboard__enlace {
-  color: #6f8ab6;
+  color: rgb(111.1460674157, 137.9662921348, 181.8539325843);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1462,7 +1452,7 @@ h3 {
   transition: 300ms background-color ease-in-out, 300ms color ease, 300ms border-radius ease;
 }
 .dashboard__enlace:hover, .dashboard__enlace--actual {
-  background-color: #40587f;
+  background-color: rgb(64.3820224719, 87.9887640449, 126.6179775281);
   color: #FFFFFF;
   border-radius: 1rem;
 }
@@ -1508,7 +1498,7 @@ h3 {
   font-size: 1.4rem;
 }
 .dashboard__boton:hover {
-  background-color: #0063c1;
+  background-color: rgb(0, 98.8729508197, 193);
   cursor: pointer;
 }
 @media (min-width: 768px) {
@@ -1670,16 +1660,16 @@ h3 {
   border-radius: 1rem;
 }
 .bloque:nth-child(1) {
-  background-image: linear-gradient(to left top, #F97316, #fba061);
+  background-image: linear-gradient(to left top, #F97316, rgb(250.9205020921, 159.8117154812, 96.5794979079));
 }
 .bloque:nth-child(2) {
-  background-image: linear-gradient(to left top, #A855F7, #cd9efa);
+  background-image: linear-gradient(to left top, #A855F7, rgb(205.3904494382, 158.0617977528, 250.4382022472));
 }
 .bloque:nth-child(3) {
-  background-image: linear-gradient(to left top, #4c7c08, #78c40d);
+  background-image: linear-gradient(to left top, #4c7c08, rgb(120.0454545455, 195.8636363636, 12.6363636364));
 }
 .bloque:nth-child(4) {
-  background-image: linear-gradient(to left top, #17769E, #23a7df);
+  background-image: linear-gradient(to left top, #17769E, rgb(34.5856353591, 167.1132596685, 222.9143646409));
 }
 .bloque__heading {
   margin: 2rem 0 2rem 0;
@@ -1746,7 +1736,6 @@ h3 {
 @media (min-width: 768px) {
   .registro {
     flex: 0 0 40%;
-    position: -webkit-sticky;
     position: sticky;
     top: 3rem;
   }
@@ -1761,7 +1750,7 @@ h3 {
   padding: 1rem;
 }
 .registro__evento:nth-child(even) {
-  background-color: #edf2f7;
+  background-color: rgb(237.29, 242.35, 247.41);
 }
 .registro__nombre {
   font-size: 2rem;

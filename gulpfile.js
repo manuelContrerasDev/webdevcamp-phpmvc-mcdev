@@ -7,6 +7,22 @@ const autoprefixer = require('autoprefixer');
 const cssnano = require('cssnano');
 const postcss = require('gulp-postcss');
 const sourcemaps = require('gulp-sourcemaps');
+const path = require('path');
+const gulp = require('gulp');
+
+
+gulp.task('build', function () {
+    return gulp.src('src/index.js')  // Ruta del archivo de entrada
+      .pipe(webpack({
+        entry: './src/index.js', // O el archivo que estés usando como entrada
+        output: {
+          filename: 'bundle.js',  // Nombre del archivo de salida
+          path: path.resolve(__dirname, 'dist'), // Ruta de salida
+        },
+        mode: 'development', // O 'production' según tu necesidad
+      }))
+      .pipe(gulp.dest('dist'));  // Guarda el archivo compilado en dist
+  });
 
 // Imagenes
 const cache = require('gulp-cache');
@@ -20,7 +36,8 @@ const concat = require('gulp-concat');
 const rename = require('gulp-rename')
 
 // Webpack
-const webpack = require('webpack-stream');
+const webpack = require('webpack-stream')
+
 
 const paths = {
     scss: 'src/scss/**/*.scss',
